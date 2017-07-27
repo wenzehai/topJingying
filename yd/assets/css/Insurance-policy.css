@@ -1,0 +1,116 @@
+.main-content{
+    padding: 0;
+    margin-top: 20px;
+}
+.container-fluid{
+    padding-left: 13px;
+}
+.container-fluid .panel .panel-title {
+    position: relative;
+    padding: 15px;
+}
+
+.container-fluid .panel .panel-title h3.model_headtitle {
+    font: 25px/52px "微软雅黑";
+    margin: 0 0 0 15px;
+}
+
+.container-fluid .panel .panel-title button.export {
+    margin: 2px 25px 1px 0;
+    float: right;
+}
+
+.container-fluid .panel .panel-title button.btn-reset,
+.container-fluid .panel .panel-title button.btn-search {
+    float: right;
+    margin: 0 25px 0 0;
+}
+
+.model_headtitle {
+    float: left;
+    cursor: pointer;
+}
+
+
+
+.model_headtitle i,
+.panel-title form button:nth-child(2) i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("../img/down-icon.png") no-repeat center;
+    vertical-align: middle;
+}
+
+.panel-title form button {
+    font: 400 24px "Microsoft YaHei";
+}
+
+.fixed-table-toolbar {
+    display: none;
+}
+
+
+/*--------------------表格部分开始------------------------*/
+
+.panel {
+    border: none;
+}
+
+.container-fluid .panel .panel-body table thead {
+    border-bottom: 2px solid #ccc;
+}
+
+.container-fluid .panel .panel-body table thead tr th {
+    font: 400 18px "Microsoft YaHei";
+    color: #86939b;
+    border-left: none;
+}
+
+.container-fluid .panel .panel-body table thead tr th .both {
+    background: none;
+}
+
+.container-fluid .panel .panel-body table thead tr th:nth-last-child(1),
+.container-fluid .panel .panel-body table thead tr th:nth-child(1) {
+    padding-left: 0;
+}
+
+.container-fluid .panel .panel-body table tbody tr td {
+    font-family: "Microsoft YaHei";
+    border-left: none;
+}
+
+.container-fluid .panel .panel-body table tbody tr td:nth-last-child(1) {
+    padding-left: 6px;
+}
+
+
+/*-------------表格部分结束-------------*/
+
+.panel .panel-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.panel-body .fixed-table-container {
+    border: none;
+}
+
+.fixed-table-pagination {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn-group {
+    margin-bottom: 1px;
+}
+
+.pagination-detail {
+    font-family: "Microsoft YaHei";
+}
+
+.pagination-detail .pagination-info {
+    margin-right: 15px;
+}

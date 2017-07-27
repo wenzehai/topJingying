@@ -1,0 +1,30 @@
+.panel .panel-body .insurance-category-left {
+	float: left;
+	color: #767676;
+}
+.panel .panel-body .insurance-category-left span {
+	display: block;
+	padding-top: 4px;
+	text-align: center;
+}
+.panel .panel-body .insurance-category-right {
+	float: right;
+	padding-top: 5px;
+	color: #767676;
+}
+.panel .panel-body .insurance-category-right p.price {
+	text-align: right;
+	font: 24px/24px "微软雅黑";
+}
+
+.panel .panel-body .insurance-category-right p.number {
+	text-align: right;
+	font: 24px/24px "微软雅黑";
+}
+.panel .panel-body p.simple-des {
+	font: 24px/30px "微软雅黑";
+}
+.panel .panel-body .simple-des span.results {
+	font-size: 30px;
+	color: #FBC02D;
+}

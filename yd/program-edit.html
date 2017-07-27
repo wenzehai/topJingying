@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<title>Notifications | Klorofil - Free Bootstrap Dashboard Template</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<!-- VENDOR CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-table-master/dist/bootstrap-table.css" />
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/program-edit.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" />
+	</head>
+
+	<body>
+		<!-- WRAPPER -->
+		<div id="wrapper">
+			<!-- NAVBAR -->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="brand">
+					<a href="index.html"><span>TOP精英</span></a>
+				</div>
+				<div class="container-fluid">
+					<div class="navbar-btn">
+						<button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
+					</div>
+					<form class="navbar-form navbar-left">
+						<div class="input-group">
+							<input type="text" value="" class="form-control" placeholder="联系人/保单/险种">
+							<span class="input-group-btn"><button type="button" class="btn btn-primary">Go</button></span>
+						</div>
+					</form>
+					<div class="navbar-btn navbar-btn-right">
+						<a class="btn btn-success update-pro" href="#downloads/klorofil-pro-bootstrap-admin-dashboard-template/?utm_source=klorofil&utm_medium=template&utm_campaign=KlorofilPro" title="Upgrade to Pro" target="_blank"><i class="fa fa-rocket"></i> <span>新增条目</span></a>
+					</div>
+					<div id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle icon-menu" data-toggle="dropdown">
+									<i class="lnr lnr-alarm"></i>
+									<span class="badge bg-danger">5</span>
+								</a>
+								<ul class="dropdown-menu notifications">
+									<li>
+										<a href="#" class="notification-item"><span class="dot bg-warning"></span>提醒1</a>
+									</li>
+									<li>
+										<a href="#" class="notification-item"><span class="dot bg-danger"></span>提醒2</a>
+									</li>
+									<li>
+										<a href="#" class="notification-item"><span class="dot bg-success"></span>提醒3</a>
+									</li>
+									<li>
+										<a href="#" class="notification-item"><span class="dot bg-warning"></span>提醒4</a>
+									</li>
+									<li>
+										<a href="#" class="notification-item"><span class="dot bg-success"></span>提醒5</a>
+									</li>
+									<li>
+										<a href="#" class="more">查看所有提醒</a>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="assets/img/user.png" class="img-circle" alt="Avatar"> <span>张三</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><i class="lnr lnr-user"></i> <span>我的</span></a>
+									</li>
+									<li>
+										<a href="#"><i class="lnr lnr-envelope"></i> <span>信息</span></a>
+									</li>
+									<li>
+										<a href="#"><i class="lnr lnr-cog"></i> <span>设置</span></a>
+									</li>
+									<li>
+										<a href="#"><i class="lnr lnr-exit"></i> <span>注销</span></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- END NAVBAR -->
+			<!-- LEFT SIDEBAR -->
+			<div id="sidebar-nav" class="sidebar">
+				<div class="sidebar-scroll">
+					<nav>
+						<ul class="nav">
+							<li>
+								<a href="index.html" class=""><i class="fa fa-home"></i> <span>首页</span></a>
+							</li>
+							<li>
+								<a href="remind.html" class=""><i class="fa fa-calendar-o"></i> <span>提醒</span></a>
+							</li>
+							<li>
+								<a href="contacts.html" class=""><i class="fa fa-address-book"></i> <span>联系人</span></a>
+							</li>
+							<li>
+								<a href="insurance-category.html" class=""><i class="fa fa-book"></i> <span>险种明细</span></a>
+							</li>
+							<li>
+								<a href="insurance-policy.html" class=""><i class="fa fa-file"></i> <span>保单明细</span></a>
+							</li>
+							<li>
+								<a href="data-report.html" class=""><i class="fa fa-pie-chart"></i> <span>数据报表</span></a>
+							</li>
+							<li>
+								<a href="team-manager.html" class=""><i class="fa fa-users"></i> <span>团队管理</span></a>
+							</li>
+							<li>
+								<a href="#count" data-toggle="collapse" class="collapsed "><i class="fa fa-table"></i> <span>统计报表</span> <i class="icon-submenu fa fa-angle-down"></i></a>
+								<div id="count" class="collapse ">
+									<ul class="nav">
+										<li>
+											<a href="annual-report.html" class="">年度报表</a>
+										</li>
+										<li>
+											<a href="units-monthly-report.html" class="">单位月度报表</a>
+										</li>
+										<li>
+											<a href="organization-monthly-report.html" class="">机构月度报表</a>
+										</li>
+										<li>
+											<a href="people-index-report.html" class="">人力指标报表</a>
+										</li>
+										<li>
+											<a href="level-index-report.html" class="">层级指标报表</a>
+										</li>
+										<li>
+											<a href="phase-tracking.html" class="">阶段追踪</a>
+										</li>
+										<li>
+											<a href="unearned-insurance.html" class="">预收承保</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#report-management" data-toggle="collapse" class="collapsed active"><i class="fa fa-table"></i> <span>报表管理</span> <i class="icon-submenu fa fa-angle-down"></i></a>
+								<div id="report-management" class="collapsed">
+									<ul class="nav">
+										<li>
+											<a href="all-reports.html" class="">所有报表</a>
+										</li>
+										<li>
+											<a href="tragets-setting.html" class="">目标制定</a>
+										</li>
+										<li>
+											<a href="customize-table-making.html" class="">新增自定义报表</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#query" data-toggle="collapse" class="collapsed"><i class="fa fa-search "></i> <span>数据查询</span> <i class="icon-submenu fa fa-angle-down"></i></a>
+								<div id="query" class="collapse ">
+									<ul class="nav">
+										<li>
+											<a href="underwriting-inquiry.html" class="">承保查询</a>
+										</li>
+										<li>
+											<a href="inquiry.html" class="">预收查询</a>
+										</li>
+
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="program-tracking.html" class="active"><i class="fa fa-paper-plane"></i> <span>方案追踪</span></a>
+							</li>
+							<li>
+								<a href="honor.html" class=""><i class="fa fa-trophy"></i> <span>荣誉体系</span></a>
+							</li>
+							<li>
+								<a href="feedback.html" class=""><i class="fa fa-pencil"></i> <span>意见反馈</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- END LEFT SIDEBAR -->
+			<!-- MAIN -->
+			<div class="main">
+				<!-- MAIN CONTENT -->
+				<div class="main-content">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-12 col-md-12">
+								<!--导航路径-->
+								<ol class="breadcrumb">
+									<li>
+										<a href="program-tracking.html">企划追踪</a>
+									</li>
+									<li>
+										<a href="program-details.html">企划追踪</a>
+									</li>
+									<li>
+										编辑企划案
+									</li>
+								</ol>
+							</div>
+							<!--操作栏-->
+							<div class="col-sm-12 col-md-12">
+								<div class="panel">
+									<div class="panel-title">
+										<h3 class="model_headtitle"><a href="program-details.html"<span class="fa fa-long-arrow-left"></span></a>&nbsp;&nbsp;<span>年中企划案</span></h3>
+										<form action="">
+											<button class="btn btn-default export"><a href="program-details.html" target="_blank">保存</a></button>
+										</form>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-8">
+								<div class="panel">
+									<div class="panel-body">
+										<h4>企划详情</h4>
+										<hr />
+										<div class="row">
+											<div class="col-sm-12 col-md-12">
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-sm-2 control-label">企划案名称：</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control" value="年中企划案"></div>
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-sm-2 control-label">时间：</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control inline-form" value="2017-05-12" id="datetimepicker" />
+															<p><br />至</p>
+															<input type="text" class="form-control inline-form" value="2017-05-12" id="datetimepicker1" />
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-sm-2 control-label">入司时间：</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control inline-form" value="2017-05-12" id="datetimepicker" />
+															<p><br />至</p>
+															<input type="text" class="form-control inline-form" value="2017-05-12" id="datetimepicker1" />
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">层级：</label>
+															<div class="col-sm-10">
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>区域总经理</span>
+																</label>
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">性别：</label>
+															<div class="col-sm-10">
+																<label class="fancy-radio">
+																	<input name="gender" value="male" type="radio">
+																	<span><i></i>男性</span>
+																</label>
+																<label class="fancy-radio">
+																	<input name="gender" value="female" type="radio">
+																	<span><i></i>女性</span>
+																</label>
+																<label class="fancy-radio">
+																	<input name="gender" value="all" type="radio">
+																	<span><i></i>全部</span>
+																</label>
+
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">地区：</label>
+															<div class="col-sm-10">
+																<select name="" id="" class="form-control">
+																	<option value="1">全长沙</option>
+																	<option value="2">天心区</option>
+																	<option value="2">雨花区</option>
+																</select>
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">条件：</label>
+															<div class="col-sm-10">
+																<label class="fancy-radio">
+																	<input name="insurance" value="male" type="radio">
+																	<span><i></i>男性</span>
+																</label>
+																<label class="fancy-radio">
+																	<input name="insurance" value="female" type="radio">
+																	<span><i></i>预收</span>
+																</label>
+																<label class="fancy-radio">
+																	<input name="insurance" value="all" type="radio">
+																	<span><i></i>初佣</span>
+																</label>
+																<label class="fancy-radio">
+																	<input name="insurance" value="all" type="radio">
+																	<span><i></i>全部</span>
+																</label>
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">续保率：</label>
+															<div class="col-sm-10">
+																<select name="" id="" class="form-control">
+																	<option value="1">90%</option>
+																	<option value="1">80%</option>
+																	<option value="1">70%</option>
+																	<option value="1">60%</option>
+																</select>
+																<p><br />至</p>
+																<select name="" id="" class="form-control">
+																	<option value="1">90%</option>
+																	<option value="1">80%</option>
+																	<option value="1">70%</option>
+																	<option value="1">60%</option>
+																</select>
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">自保件：</label>
+															<div class="col-sm-10">
+																<label class="fancy-radio">
+																	<input name="particpate" value="male" type="radio">
+																	<span><i></i>参与</span>
+																</label>
+																<label class="fancy-radio">
+																	<input name="particpate" value="female" type="radio">
+																	<span><i></i>忽略</span>
+																</label>
+															</div>
+														</div>
+														<div class="form-group">
+															<label class="col-sm-2 control-label">险种剔除：</label>
+															<div class="col-sm-10">
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>短险</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>产险</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>养老险</span>
+																</label>
+																<label class="fancy-checkbox">
+																	<input type="checkbox">
+																	<span>附加险</span>
+																</label> 
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- END MAIN CONTENT -->
+				</div>
+				<!-- END MAIN -->
+				<div class="clearfix"></div>
+
+			</div>
+			<!-- END WRAPPER -->
+
+			<!-- Javascript -->
+			<script src="assets/vendor/jquery/jquery.min.js"></script>
+			<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+			<script src="assets/vendor/bootstrap-table-master/dist/bootstrap-table.js"></script>
+			<script src="assets/vendor/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js"></script>
+			<script src="assets/vendor/bootstrap-table-master/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+			<script src="assets/vendor/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+			<script src="assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+			<script src="assets/scripts/klorofil-common.js"></script>
+			<script type="text/javascript">
+				$('#datetimepicker').datetimepicker({
+					format: 'yyyy-mm-dd'
+				});
+				$('#datetimepicker1').datetimepicker({
+					format: 'yyyy-mm-dd'
+				});
+			</script>
+
+	</body>
+
+</html>

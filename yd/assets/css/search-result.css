@@ -1,0 +1,207 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-26 16:12:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-26 19:43:46
+*/
+
+.search_result_top {
+    background-color: #fff;
+    padding: 20px 25px;
+    box-shadow: 2px 2px 2px 2px #eee;
+    border-radius: 4px;
+}
+
+.search_result_top > div {
+    width: 200px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.search_result_top h3 {
+    margin: 0;
+    font: 400 32px "Microsoft YaHei";
+}
+
+.search_result_top .icon_return {
+    margin-right: 20px;
+    margin-top: 5px;
+    float: left;
+    width: 35px;
+    height: 32px;
+    background: url("../img/icon_back.png") no-repeat center;
+}
+
+.search_result_content table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #eee;
+}
+
+.search_result_content table thead {
+    border-bottom: 2px solid #cacbce;
+}
+
+.search_result_content table thead tr {
+    height: 40px;
+}
+
+.search_result_content table thead tr th {
+    font: 400 20px "Microsoft YaHei";
+    color: #767676;
+}
+.search_result_content table tbody tr{
+    height: 38px;
+    border-bottom: 1px solid #cacbce;
+}
+.search_result_content table tbody tr:nth-last-child(1){
+    border:none;
+}
+.search_result_content table tbody tr:hover{
+    background-color: #f2f4f7;
+}
+.search_result_content table tbody tr td {
+    font: 400 16px "Microsoft YaHei";
+    color: #767676;
+}
+.search_result_content table tbody tr td:nth-child(2){
+    color: #00aaff;
+}
+.search_result_content h4{
+    margin: 20px;
+    font: 400 28px "Microsoft YaHei";
+}
+
+
+
+'<div class="search_result_top clearfix">'+
+    '<div class="clearfix"><i class="icon_return"></i>'+
+        '<h3>搜索结果</h3>'+
+    '</div>'+
+'</div>'+
+'<div class="search_result_content">'+
+    '<div class="contacts">'+
+        '<h4>联系人</h4>'+
+        '<table>'+
+            '<thead>'+
+                '<tr class="row">'+
+                    '<th class="col-md-1">操作</th>'+
+                    '<th class="col-md-2">姓名</th>'+
+                    '<th class="col-md-2">电话</th>'+
+                    '<th class="col-md-2">生日</th>'+
+                    '<th class="col-md-2">标签</th>'+
+                    '<th class="col-md-3">其他</th>'+
+                '</tr>'+
+            '</thead>'+
+            '<tbody>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+            '</tbody>'+
+        '</table>'+
+    '</div>'+
+    '<div class="policy">'+
+    '<h4>保单</h4>'+
+        '<table>'+
+            '<thead>'+
+                '<tr class="row">'+
+                    '<th class="col-md-1">操作</th>'+
+                    '<th class="col-md-2">姓名</th>'+
+                    '<th class="col-md-2">电话</th>'+
+                    '<th class="col-md-2">生日</th>'+
+                    '<th class="col-md-2">标签</th>'+
+                    '<th class="col-md-3">其他</th>'+
+                '</tr>'+
+            '</thead>'+
+            '<tbody>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+            '</tbody>'+
+        '</table>'+
+    '</div>'+
+    '<div class="type_of_insurance">'+
+    '<h4>险种</h4>'+
+        '<table>'+
+            '<thead>'+
+                '<tr class="row">'+
+                    '<th class="col-md-1">操作</th>'+
+                    '<th class="col-md-2">姓名</th>'+
+                    '<th class="col-md-2">电话</th>'+
+                    '<th class="col-md-2">生日</th>'+
+                    '<th class="col-md-2">标签</th>'+
+                    '<th class="col-md-3">其他</th>'+
+                '</tr>'+
+            '</thead>'+
+            '<tbody>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+                '<tr class="row">'+
+                    '<td class="col-md-1">背景图</td>'+
+                    '<td class="col-md-2">分红险</td>'+
+                    '<td class="col-md-2">12312312312</td>'+
+                    '<td class="col-md-2">2000-00-00</td>'+
+                    '<td class="col-md-2">xxxxxx</td>'+
+                    '<td class="col-md-3">备注</td>'+
+                '</tr>'+
+            '</tbody>'+
+        '</table>    '+
+    '</div>'+
+'</div>'+

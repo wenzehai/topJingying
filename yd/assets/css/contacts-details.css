@@ -1,0 +1,58 @@
+.container-fluid .panel .panel-title {
+	position: relative;
+	height: 80px;
+	padding: 15px;
+}
+.container-fluid .panel .panel-title h3.model_headtitle {
+	float: left;
+	font: 25px/30px "微软雅黑";
+	margin: 10px 0 10px 15px;
+}
+.container-fluid .panel .panel-title button.export {
+	float: right;
+	margin: 9px 25px 9px 0;
+}
+.form-group .details {
+	font: 20px/31px "微软雅黑";
+	
+}
+
+.form-group .add-btn {
+	font-size: 30px;	
+	color: #fbc02d;
+}
+.form-group .star-mark {
+	color: #da4436;
+}
+.list-group .list-group-item .category {
+	background: #da4436;
+	display: inline-block;
+	border-radius: 2px;
+	color: #FFFFFF;
+	padding: 2px 4px;
+}
+.list-group .list-group-item .sep {
+	padding: 0 10px;
+}
+
+.list-group .list-group-item .amount {
+	font-weight: 600;
+	color: #fbc02d;
+}
+
+.list-group .list-group-item .deadline {
+	font-weight: 600;
+	color: #262626;
+	padding: 0 4px;
+}
+.panel .panel-body .insurance-list .list-group {
+	position: relative;
+}
+.panel .panel-body .insurance-list span.go-details {
+	font-size: 40px;
+	color: #767676;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	right: 6px;
+}

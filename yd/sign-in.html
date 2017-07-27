@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>誉鼎</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/sign-in.css">
+</head>
+
+<body>
+    <!-- WRAPPER -->
+    <div id="wrapper">
+        <!-- NAVBAR -->
+        <div class="sign_box">
+            <div class="row">
+                <div class="one col-md-6">
+                    <h1>TOP精英</h1>
+                    <form action="#" method="get">
+                        <input class="user_name" type="text" name="user_name" placeholder="请输入账户名">
+                        <br>
+                        <input class="password" type="password" name="password" placeholder="请输入密码">
+                        <br>
+                        <p>
+                            <input class="checked_box" type="checkbox"><span class="rember_password">记住密码</span></p>
+                        <input class="sign_in" type="submit" value="登录">
+                        <br>
+                    </form>
+                    <a class="forgot_password" href="#">忘记密码？</a>
+                </div>
+                <div class="two col-md-6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END WRAPPER -->
+    <!-- Javascript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/vendor/toastr/toastr.min.js"></script>
+    <script src="assets/scripts/klorofil-common.js"></script>
+    <script>
+    $(function(argument) {
+        add_class_display_none();
+        $(window).resize(function(event) {
+            add_class_display_none();
+        });
+
+        function add_class_display_none(argument) {
+            if ($('html')[0].clientWidth < 992) {
+                $('.sign_box .row .two').addClass('display_none');
+            } else {
+                $('.sign_box .row .two').removeClass('display_none');
+            }
+            console.log('屏幕宽度:' + $('html')[0].clientWidth);
+            console.log('屏幕高度:' + $('html')[0].clientHeight);
+        }
+    })
+    </script>
+</body>
+
+</html>

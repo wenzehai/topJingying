@@ -1,0 +1,19 @@
+.container-fluid .panel .panel-title {
+	position: relative;
+	height: 80px;
+	padding: 15px;
+}
+
+.container-fluid .panel .panel-title h3.model_headtitle {
+	float: left;
+	font: 25px/30px "微软雅黑";
+	margin: 10px 0 10px 15px;
+}
+
+.container-fluid .panel .panel-title button.export {
+	float: right;
+	margin: 9px 25px 9px 0;
+}
+.main .main-content .container-fluid .row .panel #main-box{
+	padding-top: 25px;
+}

@@ -1,0 +1,72 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-23 20:41:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-26 15:37:38
+*/
+
+.main-content {
+    padding: 28px 20px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+
+/*-----------意见反馈 主题部分开始-------------*/
+
+.container_fluid_content {
+    background-color: #fff;
+    padding: 1px 40px 30px 30px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #ddd;
+}
+
+.container_fluid_content form span {
+    display: block;
+    font: 400 26px "Microsoft YaHei";
+    margin: 25px 0 20px 0;
+}
+
+.container_fluid_content #service,
+.container_fluid_content #software {
+    width: 100%;
+    height: 152px;
+    font: 400 24px "Microsoft YaHei";
+    background-color: #f7f7f7;
+    color: #e0e0e0;
+    border: none;
+    resize: none;
+    padding: 10px 10px;
+    border: 2px solid #ebedef;
+    border-radius: 4px;
+}
+
+.container_fluid_content form p input,
+.container_fluid_content .add_screenshot {
+    width: 138px;
+    height: 49px;
+    margin-top: 56px;
+    border-radius: 2px;
+    font: 400 24px "Microsoft YaHei";
+    border: 1px solid #cacbce;
+    background-color: #fff;
+    color: #86939b;
+}
+
+.container_fluid_content form p {
+    margin-top: 20px;
+}
+
+.container_fluid_content form p input {
+    margin-top: 1px;
+    float: right;
+}
+
+.container_fluid_content form p input.submit {
+    margin-left: 25px;
+    color: white;
+    background-color: #00aaff;
+}

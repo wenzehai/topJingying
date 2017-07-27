@@ -1,0 +1,160 @@
+.container-fluid .panel .panel-title {
+    position: relative;
+    padding: 15px;
+}
+
+.container-fluid .panel .panel-title h3.model_headtitle {
+    font: 25px/30px "微软雅黑";
+    margin: 10px 0 10px 15px;
+}
+
+.container-fluid .panel .panel-title button.export {
+    margin: 9px 25px 9px 0;
+    float: right;
+}
+
+.container-fluid .panel .panel-title button.btn-reset,
+.container-fluid .panel .panel-title button.btn-search {
+    float: right;
+    margin: 0 25px 0 0;
+}
+
+.container-fluid .panel .panel-title > div:nth-child(1) {
+    float: left;
+}
+
+.container-fluid .panel .panel-title > div:nth-child(2) {
+    float: right;
+}
+
+.model_headtitle {
+    float: left;
+    cursor: pointer;
+}
+
+.model_headtitle i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url("../img/down-icon.png") no-repeat center;
+    vertical-align: top;
+}
+
+.contrast_insurance {
+    float: left;
+}
+
+.contrast_insurance a {
+    font: 400 24px "Microsoft YaHei";
+    color: #86939b;
+    line-height: 52px;
+    margin-right: 39px;
+}
+
+.insurance_company {
+    float: left;
+}
+
+.insurance_company a {
+    font: 400 24px "Microsoft YaHei";
+    color: #00aaff;
+    line-height: 52px;
+}
+
+.insurance_company i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    background: url("../img/icon_arrow-right.png") no-repeat center;
+    vertical-align: text-top;
+}
+
+
+/*--------------------- 列表样式 开始 ------------------------*/
+
+.container-fluid .panel {
+    border: none;
+}
+
+.container-fluid .panel .panel-body {
+    padding: 0;
+}
+
+.container-fluid .panel .panel-body table {
+    border: none;
+}
+
+.panel-body thead tr {
+    border-bottom: 2px solid #ccc;
+}
+
+.panel-body thead tr th {
+    font: 400 18px "Microsoft YaHei";
+    color: #86939b;
+    border-left: none;
+}
+
+.panel-body tbody tr td {
+    border-left: none;
+}
+
+.container-fluid .panel .panel-body thead tr th:nth-last-child(1) {
+    padding-left: 0;
+}
+
+.panel-body thead tr th:nth-child(1) input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.panel-body thead tr th:nth-child(1) span {
+    margin-left: 5px;
+}
+
+.container-fluid .panel .panel-body tbody tr td:nth-child(1) {
+    padding-left: 33px;
+}
+
+.panel-body tbody tr td:nth-child(1) input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.panel-body tbody tr td {
+    font-family: "Microsoft YaHei";
+}
+
+.container-fluid .panel .panel-body tbody tr td:nth-last-child(1) {
+    padding-left: 8px;
+}
+
+.fixed-table-toolbar {
+    display: none;
+}
+
+.panel-body .fixed-table-container thead th .both {
+    background-image: none;
+    border: none;
+}
+
+
+/*------------------表格部分结束--------------------*/
+
+.fixed-table-container {
+    border: none;
+}
+
+.fixed-table-pagination {
+    font-family: "Microsoft YaHei";
+}
+
+.fixed-table-pagination .pagination-info {
+    margin-right: 15px;
+}
+
+.fixed-table-pagination {
+    padding-left: 25px;
+}
